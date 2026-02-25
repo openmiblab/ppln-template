@@ -64,13 +64,16 @@ Then you can run:
 python "src/template/stage_1_hello_world.py"
 ```
 
-and:
+The output will be in your build folder. To run the second stage:
 
 
 ```bash
 python "src/template/stage_2_hello_world_back.py"
 ```
 
+To run the whole pipeline, change the path to the **BUILD** folder of the scripts **ppln.py** and go:
 
 
-
+```bash
+python "src/template/ppln.py"
+```

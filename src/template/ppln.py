@@ -11,5 +11,5 @@ def run(build):
 
 if __name__=='__main__':
 
-    BUILD = r"C:\path\to\build"
+    BUILD = r"C:\Users\md1spsx\Documents\Data\template"
     pipe.run_script(run, BUILD, PIPELINE)
